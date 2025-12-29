@@ -1,7 +1,4 @@
-create or replace table stage.INVST_DATA1(
-INVST_PLAN_ARR_SEQ_NUM string,
-SEQ_DISP_NUM string,
-CTRY_INVST_ACCT_CDE string,
+CCT_CDE string,
 GRP_MEMBR_INVST_ACCT_CDE string,
 ACCT_INVST_NUM string,
 ENGMT_STYLE_CDE string,
@@ -23,5 +20,5 @@ CTRY_CDE_FILTER string,
 ENTITY_CDE_FILTER string
 )
 
-SELECT  FROM `my-project-rishi-480704.stage.invst_plan` LIMIT 1000
+SELECT  FROM `my-project-rishi-480704.stage.invst_plan` LIMIT 1000create or replace table stage.INVST_DATA1(
 
