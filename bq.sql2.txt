@@ -1,0 +1,27 @@
+create or replace table stage.INVST_DATA1(
+INVST_PLAN_ARR_SEQ_NUM string,
+SEQ_DISP_NUM string,
+CTRY_INVST_ACCT_CDE string,
+GRP_MEMBR_INVST_ACCT_CDE string,
+ACCT_INVST_NUM string,
+ENGMT_STYLE_CDE string,
+INVST_PLAN_NUM string,
+INVST_PLAN_STAT_CDE string,
+PDCY_INVST_CDE string,
+PLAN_INSTR_NEXT_TM string,
+PLAN_INSTR_NEXT_DT string,
+CCY_INVST_REG_CDE string,
+INVST_REG_AMT string,
+CCY_INVST_ACCUM_CDE string,
+INVST_ACCUM_AMT string,
+CNTRB_SUCS_TTL_CNT string,
+CNTRB_LAST_DT_TM string,
+MDUN_SYS_CDE string,
+LAST_INGESTION_TIMESTAMP string,
+PRM_LNE_OF_BUS_CDE_FILTER string,
+CTRY_CDE_FILTER string,
+ENTITY_CDE_FILTER string
+)
+
+SELECT  FROM `my-project-rishi-480704.stage.invst_plan` LIMIT 1000
+
